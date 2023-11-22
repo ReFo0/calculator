@@ -1,8 +1,9 @@
 # Calculator Project
 
-This project is a simple calculator developed using HTML, CSS, and JavaScript.
 ![](https://img.shields.io/github/stars/refo0/calculator)
 ![](https://img.shields.io/github/forks/refo0/calculator)
+
+This project is a simple calculator developed using HTML, CSS, and JavaScript.
 
 ## Screenshots
 
