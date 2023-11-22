@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.2/math.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="calculator">
+        <button onclick="clearScreen()">AC</button>
+        <button onclick="addToScreen('7')">7</button>
+        <button onclick="addToScreen('8')">8</button>
+        <button onclick="addToScreen('9')">9</button>
+        <button onclick="addToScreen('4')">4</button>
+        <button onclick="addToScreen('5')">5</button>
+        <button onclick="addToScreen('6')">6</button>
+        <button onclick="addToScreen('1')">1</button>
+        <button onclick="addToScreen('2')">2</button>
+        <button onclick="addToScreen('3')">3</button>
+        <button onclick="addToScreen('0')">0</button>
+        <button class="operator" onclick="addToScreen('+')">+</button>
+        <button class="operator" onclick="addToScreen('-')">-</button>
+        <button class="operator" onclick="addToScreen('*')">*</button>
+        <button class="operator" onclick="addToScreen('/')">/</button>
+        <button class="equals" onclick="calculateResult()">=</button>
+        <button class="clear" onclick="clearScreen()">C</button>
+    </div>
+</body>
+</html>
